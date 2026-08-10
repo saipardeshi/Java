@@ -1,4 +1,4 @@
-class Vehicle {
+class Vehicle4 {
     void start() {
         System.out.println("Vehicle is starting");
     }
@@ -11,14 +11,14 @@ class Bike extends Vehicle {
     }
 }
 
-class Car extends Vehicle {
+class Car3 extends Vehicle {
     @Override
     void start() {
         System.out.println("Car starts with a key/button");
     }
 }
 
-public class VehicleDemo {
+class VehicleDemo3 {
     public static void main(String[] args) {
         Vehicle v1 = new Bike();
         Vehicle v2 = new Car();
