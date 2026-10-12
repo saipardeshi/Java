@@ -3,7 +3,7 @@ public class Practice73 {
     public static void main(String[] args) {
         // Create a HashSet to store Integer values
         HashSet<Integer> set = new HashSet<>();
-        set.add(10); // Add 10 to the set
+        set.add(1); // Add 10 to the set
         set.add(20); // Add 20 to the set
         set.add(10); // Duplicate 10 will NOT be added
         set.add(30); // Add 30 to the set
