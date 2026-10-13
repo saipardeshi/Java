@@ -9,8 +9,6 @@ class Mobile{
         System.out.println("ram is:"+ram);
     }
 }
-
-
 public class Pr5 {
     public static void main(String[] args) {
 
