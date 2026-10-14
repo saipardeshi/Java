@@ -1,13 +1,13 @@
 // Encapsulation.java
 
-class Student {
+class Student11 {
     // private fields - hidden from outside access
     private String name;
     private int age;
     private double marks;
 
     // Constructor
-    Student(String name, int age, double marks) {
+    Student11(String name, int age, double marks) {
         this.name = name;
         this.age = age;
         this.marks = marks;
@@ -54,7 +54,7 @@ class Student {
 
 public class Encapsulation {
     public static void main(String[] args) {
-        Student s1 = new Student("Harry", 20, 85.5);
+        Student11 s1 = new Student11("Harry", 20, 85.5);
         s1.displayInfo();
 
         System.out.println("-----");
